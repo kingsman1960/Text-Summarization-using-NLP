@@ -16,8 +16,8 @@ nlp= en_core_web_sm.load()
 stopwords = list(STOP_WORDS)
 punctuation = punctuation + "\n"
 
-config = configparser.ConfigParser()
-config.read("config.ini")
+#config = configparser.ConfigParser()
+#config.read("config.ini")
 news_api_key = st.secrets["API"]["news_api"]
 
 
