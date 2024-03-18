@@ -18,7 +18,7 @@ punctuation = punctuation + "\n"
 
 config = configparser.ConfigParser()
 config.read("config.ini")
-news_api_key = config["API"]["news_api"]
+news_api_key = st.secrets["API"]["news_api"]
 
 
 
