@@ -3,5 +3,5 @@ configparser
 bs4
 requests
 spacy_streamlit
-spacy
-en_core_web_sm
+spacy ==2.3.5
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
