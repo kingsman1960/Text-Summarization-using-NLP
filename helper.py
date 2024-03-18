@@ -72,7 +72,7 @@ def fetch_news_links(query):
     thumbnail_list = []
 
     if query == "":
-        reqUrl = "https://newsapi.org/v2/everything?sources=bbc-news&q=india&language=en&apiKey={}".format(news_api_key)
+        reqUrl = "https://newsapi.org/v2/everything?sources=bbc-news&q=germany&language=en&apiKey={}".format(news_api_key)
     else:
         reqUrl = "https://newsapi.org/v2/everything?sources=bbc-news&q={}&language=en&apiKey={}".format(query, news_api_key)
     

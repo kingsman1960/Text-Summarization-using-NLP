@@ -8,8 +8,8 @@ st.set_page_config(
      layout="wide",
      initial_sidebar_state="expanded",
      menu_items={
-         'Get Help': 'https://github.com/everydaycodings/Text-Summarization-using-NLP',
-         'Report a bug': "https://github.com/everydaycodings/Text-Summarization-using-NLP/issues/new",
+         'Get Help': 'https://github.com/kingsman1960/Text-Summarization-using-NLP',
+         'Report a bug': "https://github.com/kingsman1960/Text-Summarization-using-NLP/issues/new",
          'About': "# This is a header. This is an *extremely* cool app!"
      }
 )
